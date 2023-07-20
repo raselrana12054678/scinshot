@@ -1,0 +1,115 @@
+.header-area {
+    background: rgb(8, 209, 199);
+    padding: 10px 0;
+}
+.logo-area {
+    margin-top: -6px;
+}
+.menu-area {
+    padding-top: 9px;
+    text-align: right;
+    position: relative;
+}
+.menu-area li {
+    list-style: none;
+    display: inline-block;
+}
+.menu-area a {
+    text-decoration: none;
+    margin-right: 40px;
+    text-transform: capitalize;
+    color: #fff;
+    transition: .6s;
+    position: relative;
+}
+.menu-area a:after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    left: 0;
+    bottom: -10px;
+    display: block;
+    position: absolute;
+    background-color: red;
+    transition: .6s;
+}
+.menu-area a:hover:after {
+    width: 100%;
+}
+.btn {
+    border: 1px solid rgb(211, 8, 171);
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: .6s;
+}
+.btn:hover {
+    background: rgb(4, 190, 207);
+    color: #fff;
+}
+.btn a {
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* slider css start  */
+img {
+    width: 100%;
+}
+span.carousel-control-prev-icon {
+    background-color: red;
+    padding: 10px 10px;
+}
+span.carousel-control-next-icon {
+    background-color: red;
+    padding: 10px;
+}
+/* slider css end  */
+
+/* list css start  */
+.list-items {
+    width: 84%;
+    margin: 0 auto;
+    border: 1px solid #333;
+    padding: 50px 50px;
+    margin-top: 40px;
+}
+.list-itemst {
+    background-color: aqua;
+    width: 84%;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 50px 50px;
+    margin-top: 40px;
+}
+
+/* form css */
+.wrapp-items {
+    padding: 70px 0;
+    background-color: #ddd;
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.wrapp-items input {
+    width: 70%;
+    padding: 13px 0;
+    border-bottom: 3px solid red;
+    outline: 0;
+    border-left: 2px solid white;
+    border-top: 2px solid white;
+    border-right: 2px solid white;
+    margin: 0 auto;
+    margin-left: 5%;
+}
+button {
+    border: none;
+    width: 25%;
+    padding: 13px 0;
+    background-color: red;
+    border-color: red;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 5%;
+}
